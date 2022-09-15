@@ -362,12 +362,85 @@ class _HomePageState extends State<HomePage> {
                    Padding(
                      padding: const EdgeInsets.symmetric(horizontal: 6),
                      child: Text(
-                      r"""Queen Elizabeth passes down at the age of 96 **                                                                             On Thursday, Queen Elizabeth II's croakers expressed" concern" for her health and recommended that she remain under medical supervision, per Buckingham Palace.  The 96- time-old monarch, Britain's longest- serving monarch, has been littered with health issues since last October, causing her difficulty walking andstanding.She cancelled a gathering along with her elderly political counsels on Wednesday after being told torest.The day ahead, she met with gregarious Prime Minister Boris Johnson at her Scottish mounds retreat, Balmoral, and named his successor, Liz Truss. " The Queen's croakers are concerned about Her Majesty's health and have recommended she remain under medical supervision," palace said in a veritably statement." The Queen remains at Balmoral and cozy," the palaceadded.Queen Elizabeth II, Britain's longest- reigning monarch and a pillar of stability for important of the 20 th century, failed on September 8 at the age of 70. She was 96 times old. She failed at Balmoral Castle, her summer hearthstone in Scotland, where members of the kingline had rushed to her side after her health deteriorated.She was the sole monarch most Britons had ever known, and her name defined an period the trendy Elizabethan period. She was a link to the nearly- dissolved generation that fought in warfare II.  Her death will have an enormous and changeable impact on both the state and also the monarchy, an establishment she helped stabilise and modernise over decades of massive social change and familyseparation.With the Queen's death, her 73- time-old son Charles becomes monarch automatically, though the coronation may take months. it's unclear whether he'll call himself King Charles III or commodity differently.  The war had an unforgettable impact on the Queen's life. She made her first public broadcast as Princess Elizabeth when she was 14 times old, transferring a wartime communication to children vacated to the country or overseas." We children event are filled with gayness and courage," she said, her voice a combination of stoicism and hope that may resonate throughout her reign." We do everything we will to help our stalwart dogfaces, mariners, and birdmen." and that we try in contact our fair proportion of the hazards and sorrows of war. We all know that within the end, everything are going to be fine".""",
-                      style: TextStyle(color: Colors.white , fontSize : MediaQuery.of(context).size.height * 0.021 )
+                      'Queen Elizabeth passes down at the age of 96 \n ** \n On Thursday, Queen Elizabeth II\'s croakers expressed" concern" for her health and recommended that she remain under medical supervision, per Buckingham Palace. \n\n The 96- time-old monarch, Britain\'s longest- serving monarch, has been littered with health issues since last October, causing her difficulty walking andstanding.She cancelled a gathering along with her elderly political counsels on Wednesday after being told torest.The day ahead, she met with gregarious Prime Minister Boris Johnson at her Scottish mounds retreat, Balmoral, and named his successor, Liz Truss. \n\n "The Queen\'s croakers are concerned about Her Majesty\'s health and have recommended she remain under medical supervision," palace said in a veritably statement." The Queen remains at Balmoral and cozy," the palaceadded.Queen Elizabeth II, Britain\'s longest- reigning monarch and a pillar of stability for important of the 20 th century, failed on September 8 at the age of 70. She was 96 times old. She failed at Balmoral Castle, her summer hearthstone in Scotland, where members of the kingline had rushed to her side after her health deteriorated.She was the sole monarch most Britons had ever known, and her name defined an period the trendy Elizabethan period. She was a link to the nearly- dissolved generation that fought in warfare II. \n\n  Her death will have an enormous and changeable impact on both the state and also the monarchy, an establishment she helped stabilise and modernise over decades of massive social change and familyseparation.With the Queen\'s death, her 73- time-old son Charles becomes monarch automatically, though the coronation may take months. it\'s unclear whether he\'ll call himself King Charles III or commodity differently. \n\n\n The war had an unforgettable impact on the Queen\'s life. She made her first public broadcast as Princess Elizabeth when she was 14 times old, transferring a wartime communication to children vacated to the country or overseas." We children event are filled with gayness and courage," she said, her voice a combination of stoicism and hope that may resonate throughout her reign." We do everything we will to help our stalwart dogfaces, mariners, and birdmen." and that we try in contact our fair proportion of the hazards and sorrows of war. We all know that within the end, everything are going to be fine".\n' ,
+                      style: TextStyle(
+                        
+                        color: Colors.white , fontSize : MediaQuery.of(context).size.height * 0.021 )
                   ),
-                   )
-                ],
+                   ),
+                    Container(
+                height: MediaQuery.of(context).size.height * 0.01,
+                color: Colors.black,
+                width: double.infinity,
+              ),
+              Padding(
+                padding:  EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.02,left:  MediaQuery.of(context).size.height * 0.02,right:  MediaQuery.of(context).size.height * 0.02,bottom:  MediaQuery.of(context).size.height * 0.025 ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                  Row(children: [Icon(Icons.thumb_up_outlined,color: Colors.white,),
+                  Padding(
+                    padding:  EdgeInsets.only(left: MediaQuery.of(context).size.width * 0.01),
+                    child: Text("3" , style: TextStyle(color: Colors.white,fontSize:  MediaQuery.of(context).size.height * 0.025)),
+                  ),],),
+                  Row(children: [Icon(Icons.comment_outlined ,color: Colors.white, ) ,
+                    Padding(
+                    padding:  EdgeInsets.only(left: MediaQuery.of(context).size.width * 0.01),
+                    child: Text("1" , style: TextStyle(color: Colors.white,fontSize:  MediaQuery.of(context).size.height * 0.025)),
+                  ),],),
+                    Row(children: [Icon(Icons.remove_red_eye_outlined,color: Colors.white,),
+                      Padding(
+                    padding:  EdgeInsets.only(left: MediaQuery.of(context).size.width * 0.01),
+                    child: Text("1058" , style: TextStyle(color: Colors.white,fontSize:  MediaQuery.of(context).size.height * 0.025)),
+                  ),],),
+                      Icon(Icons.send,color: Colors.white,)
+
+                ],),
               )
+                ],
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height * 0.01,
+                color: Colors.black,
+                width: double.infinity,
+              ),
+              Padding(
+                padding:  EdgeInsets.only(left:  MediaQuery.of(context).size.height * 0.02,top:  MediaQuery.of(context).size.height * 0.02,bottom:  MediaQuery.of(context).size.height * 0.025),
+                child: Row(
+                  children: [
+                    Text("Login",style:TextStyle(color: Colors.blue ,decoration: TextDecoration.underline ,fontSize:  MediaQuery.of(context).size.height * 0.02 ) , ),
+                    Text("  to like and comment"  ,style: TextStyle(color: Colors.white,fontSize:  MediaQuery.of(context).size.height * 0.02 ), )
+                  ],
+                ),
+              ),
+            Row(
+              children: [
+                Padding(
+                  padding: EdgeInsets.only(left:  MediaQuery.of(context).size.height * 0.025,right:  MediaQuery.of(context).size.height * 0.02),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                       backgroundColor: Colors.brown,
+                       child: Text("C",style: TextStyle(fontSize:  MediaQuery.of(context).size.height * 0.025),),
+                      ),
+                      Text("CoadN\nPLACE",style: TextStyle(color: Colors.white),),                  
+                    ],
+                  ),
+                  
+                ),
+                 Padding(
+                   padding: EdgeInsets.only(bottom:  MediaQuery.of(context).size.height * 0.025),
+                   child: Container(
+                          height:  MediaQuery.of(context).size.height * 0.15,
+                          width:  MediaQuery.of(context).size.width * 0.75,
+                         decoration: BoxDecoration(
+                              
+                                border: Border.all(color: Colors.white,
+                               )),
+                        ),
+                 )
+              ],
+            )
             ],
           ),
         ));
