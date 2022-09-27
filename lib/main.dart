@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pg_first_screen/widget/EditProfile.dart';
+import 'package:pg_first_screen/widget/Profile.dart';
 import 'package:pg_first_screen/widget/notification.dart';
 
 import 'widget/HomePage.dart';
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
           primary: Color(0xff212529)
         ),
       ),
-      home: const NotificationPage(),
+      home:  EditProfile(),
     );
   }
 }
